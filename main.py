@@ -18,3 +18,12 @@ table.rows.append([res['data'][6]['name'], res['data'][6]['price_usd']])
 table.rows.append([res['data'][7]['name'], res['data'][7]['price_usd']])
 table.rows.append([res['data'][8]['name'], res['data'][8]['price_usd']])
 table.rows.append([res['data'][9]['name'], res['data'][9]['price_usd']])
+
+
+table.columns.header = ["Name","Price"]
+table.rows.header = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+table.set_style(BeautifulTable.STYLE_BOX_ROUNDED)
+print(table)
+input()
+
+# Made By Yasin Rezvani

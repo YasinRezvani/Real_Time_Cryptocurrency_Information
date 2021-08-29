@@ -8,16 +8,9 @@ print("\n--- "+localtime+" ---")
 url = "https://api.coinlore.net/api/tickers/?start=0&limit=11"
 res = requests.get(url).json()
 
-table.rows.append([res['data'][0]['name'], res['data'][0]['price_usd']])
-table.rows.append([res['data'][1]['name'], res['data'][1]['price_usd']])
-table.rows.append([res['data'][2]['name'], res['data'][2]['price_usd']])
-table.rows.append([res['data'][3]['name'], res['data'][3]['price_usd']])
-table.rows.append([res['data'][4]['name'], res['data'][4]['price_usd']])
-table.rows.append([res['data'][5]['name'], res['data'][5]['price_usd']])
-table.rows.append([res['data'][6]['name'], res['data'][6]['price_usd']])
-table.rows.append([res['data'][7]['name'], res['data'][7]['price_usd']])
-table.rows.append([res['data'][8]['name'], res['data'][8]['price_usd']])
-table.rows.append([res['data'][9]['name'], res['data'][9]['price_usd']])
+for i in range(0 , 10):
+    table.rows.append([res['data'][i]['name'], res['data'][i]['price_usd']])
+
 
 
 table.columns.header = ["Name","Price"]

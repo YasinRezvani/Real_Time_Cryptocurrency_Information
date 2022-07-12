@@ -3,7 +3,7 @@ A simple CLI Cryptocurrency Information app to get 10 best coin Cryptocurrency r
 # Install the requirements
 First you should install the requirements:
 ```
-$ pip install requests beautifultable
+pip install requests beautifultable
 ```
 # Demo :tada:
 ![demo_Cryptocurrency_Information](https://user-images.githubusercontent.com/77124662/131077394-64b93fca-608a-44c2-b443-02493dd8837f.PNG)

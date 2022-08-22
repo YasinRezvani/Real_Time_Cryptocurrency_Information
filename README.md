@@ -1,4 +1,4 @@
-# Cryptocurrency_Information
+# Real_Time_Cryptocurrency_Information
 A simple CLI Cryptocurrency Information app to get the 10 best coin Cryptocurrencies real time and use [CoinLore](https://www.coinlore.com/cryptocurrency-data-api) API.
 # Install the requirements
 First you should install the requirements:
